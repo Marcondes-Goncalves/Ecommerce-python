@@ -1,0 +1,13 @@
+from django.urls import path
+from .views import *
+ 
+# URLS DA HOME PAGE DO APP LOJA
+urlpatterns = [
+    path('', homepage, name="homepage"),
+    path('loja/', loja, name="loja"),
+    path('minhaconta/', minha_conta, name="minha_conta"),
+    path('login/', login, name="login"),
+    path('carrinho/', carrinho, name="carrinho"),
+    path('checkout/', checkout, name="checkout")
+]
+
