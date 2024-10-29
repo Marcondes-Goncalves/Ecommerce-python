@@ -1,0 +1,8 @@
+criar arquivo de migração
+cria todas as querys de acordo com o mapeamento feito em classes
+python manage.py makemigrations
+
+
+executa a query no banco de dados
+executar arquivo de migração
+python manage.py migrate
